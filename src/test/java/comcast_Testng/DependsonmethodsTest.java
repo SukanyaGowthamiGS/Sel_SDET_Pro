@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class DependsonmethodsTest {
 	@Test
 	public void createCustomerTest() {
-		System.out.println("create users for wise illusion");
+		System.out.println("create users for wise_illusion");
 	}
 	
 	@Test(dependsOnMethods="createCustomerTest")
